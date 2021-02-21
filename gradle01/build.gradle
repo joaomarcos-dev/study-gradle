@@ -1,0 +1,20 @@
+task hello
+task world
+
+//This is imperative
+hello{
+	doLast{
+		print "Helooooo"
+	}
+}
+
+world{
+	dependsOn << hello
+	doLast{
+		println "world"
+	}
+}
+
+task HelloWorld{
+	dependsOn = [world, hello]
+}
