@@ -15,4 +15,7 @@ dependencies{
 	compile 'org.apache.commons:commons-lang3:3.11'
 }
 
-//In what repo to search forrepositories{
+//In what repo to search for
+repositories{
+	mavenCentral()
+}

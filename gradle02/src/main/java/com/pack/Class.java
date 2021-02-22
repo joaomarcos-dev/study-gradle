@@ -8,7 +8,7 @@ public class Class{
 
 		if(args.length == 0){
 			String response = "No  augend or addend";
-			System.out.println(StringUtils.capitalize(response));
+			System.out.println(StringUtils.upperCase(response));
 			return;
 		}
 		
