@@ -1,1 +1,11 @@
 apply plugin: 'java'
+
+/* define a class of a certain type
+ * We should know the type api in order to use it correctly
+ */
+task execute(type: JavaExec){
+	main= 'com.pack.Class'
+	
+	//All the used class paths are being recorded in the runtimeClasspath variable
+	classpath = sourceSets.main.runtimeClasspath
+}
