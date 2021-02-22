@@ -1,2 +1,0 @@
-com/pack/Class.java
- com.pack.Class

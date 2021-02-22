@@ -1,10 +1,14 @@
 package com.pack;
+
+import org.apache.commons.lang3.StringUtils;
+
 public class Class{
 	
 	public static void main(String [] args){
 
 		if(args.length == 0){
-			System.out.println("No  augend or addend");
+			String response = "No  augend or addend";
+			System.out.println(StringUtils.capitalize(response));
 			return;
 		}
 		
