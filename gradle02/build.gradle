@@ -9,3 +9,10 @@ task execute(type: JavaExec){
 	//All the used class paths are being recorded in the runtimeClasspath variable
 	classpath = sourceSets.main.runtimeClasspath
 }
+
+dependencies{
+	//groupId:artifactId:version
+	compile 'org.apache.commons:commons-lang3:3.11'
+}
+
+//In what repo to search forrepositories{
